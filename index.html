@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./style.css">
+
+    <title>前往指定元素</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li data-goto-target="#box1"  data-goto-duration="300">連結1</li>
+            <li data-goto-target="#box2"  data-goto-duration="500">連結2</li>
+            <li data-goto-target="#box3"  data-goto-duration="700">連結3</li>
+            <li data-goto-target="#box4"  data-goto-duration="900">連結4</li>
+            <li data-goto-target="#box5"  data-goto-duration="1100">連結5</li>
+        </ul>
+    </nav>
+
+    <div id="box1">區塊1</div>
+    <div id="box2">區塊2</div>
+    <div id="box3">區塊3</div>
+    <div id="box4">區塊4</div>
+    <div id="box5">區塊5</div>
+
+    <!-- jQuery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="./GoToElement.js"></script>
+</body>
+</html>
